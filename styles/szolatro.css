@@ -1,0 +1,35 @@
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.letters {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-auto-rows: 60px;
+    gap: 6px;
+    margin-top: 20px;
+}
+
+.typed-word {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-auto-rows: 40px;
+}
+
+.letter {
+    position: relative;
+}
+
+.letter-score {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    font-weight: 600;
+}
+
+.typed-word  .letter-score {
+    color: black;
+    font-size: 0.6em;
+}
