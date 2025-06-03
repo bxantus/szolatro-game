@@ -3,6 +3,10 @@
     pointer-events: none;
 }
 
+div.main {
+    overflow: hidden;
+}
+
 .letters {
     display: grid;
     grid-template-columns: repeat(5, 60px);
