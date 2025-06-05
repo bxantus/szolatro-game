@@ -37,3 +37,13 @@ div.main {
     color: black;
     font-size: 0.6em;
 }
+
+.btn.ico {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn.ico > * {
+    vertical-align: middle;
+    font-size: 36px;
+}
