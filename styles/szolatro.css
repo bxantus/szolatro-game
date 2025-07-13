@@ -2,7 +2,7 @@ body, html {
     /* disable pull-to-refresh */
     overscroll-behavior: contain;
     /* disable default zoom gestures on iOS */
-    touch-action: none;
+    touch-action: pinch-zoom;
     /* disable text selection (long click on small texts) */
     user-select: none;
 }
@@ -59,4 +59,17 @@ div.main {
 
 .btn-info {
     color: #fafafa;
+}
+
+/* modal dialog component */
+.dialog {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    border: none;
+}
+
+.dialog::backdrop {
+    background-color: black;
+    opacity: 0.5;
 }
